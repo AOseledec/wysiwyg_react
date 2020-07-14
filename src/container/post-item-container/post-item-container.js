@@ -1,10 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 
 import { compose } from '../../utils';
-
-import ErrorIndicator from '../../components/error-indicator';
-import Spinner from '../../components/spinner';
 
 import PostItem from '../../components/post-item';
 

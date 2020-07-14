@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Test task for the Frontend React Developer job",
   "author": "AOseledec",
-  "homepage": "http://gitname.github.io/react-gh-pages",
+  "homepage": "https://aoseledec.github.com/wysiwyg_react",
   "private": true,
   "dependencies": {
     "draft-js": "^0.11.6",
@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

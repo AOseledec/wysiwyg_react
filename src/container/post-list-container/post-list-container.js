@@ -15,7 +15,7 @@ const PostListContainer = ({ posts, loading, error, fetchPosts }) => {
     return () => {
       console.log('PostListContainer unmount')
     };
-  }, []);
+  }, [fetchPosts]);
 
   return  loading ? <Spinner/>:
           error ? <ErrorIndicator/>:

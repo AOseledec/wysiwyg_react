@@ -2,7 +2,6 @@ import {
   FETCH_POSTS_SUCCESS,
   FETCH_POSTS_REQUEST,
   FETCH_POSTS_FAILURE,
-  POST_ADDED_TO_LIST
 } from '../actions/const';
 
 const updatePostlist = (state, action) => {
