@@ -12,7 +12,7 @@ const App = () => {
     <main role='main' className="container-fluid">
       <PostHeader />
       <Switch>     
-        <Route path='/' component={Main} exact></Route>
+        <Route path='/wysiwyg_react/' component={Main} exact></Route>
         <Route path='/add-post/' component={AddPost}></Route>
         <Route path='/post/:id' component={Post}></Route>
         
