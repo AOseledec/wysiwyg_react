@@ -1,0 +1,26 @@
+.post-header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 1rem;
+}
+
+.post-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-header .logo {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+
+.post-header .add-post {
+  align-self: center;
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+.post-header .add-post .cart-icon{
+  font-size: 2.2rem;
+  margin-right: 10px;
+
+}

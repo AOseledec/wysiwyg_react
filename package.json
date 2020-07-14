@@ -1,14 +1,19 @@
 {
   "name": "test_fronted-react",
   "version": "0.1.0",
+  "description": "Test task for the Frontend React Developer job",
+  "author": "AOseledec",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "draft-js": "^0.11.6",
+    "draftjs-to-html": "^0.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
